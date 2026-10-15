@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منصة أنيس - Anees</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      background-color: #f4f4f9;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 { color: #333; }
+    p { color: #666; }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    button:hover { background-color: #45a049; }
+    ul { list-style-type: none; padding: 0; margin-top: 20px; }
+    li { background: #fff; margin: 10px auto; padding: 10px; width: 50%; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>مرحبًا بك في Anees</h1>
+    <p>منصة دردشة آمنة مع نظام نقاط وأوسمة.</p>
+    <button id="loginBtn">تسجيل الدخول باسم مستعار</button>
+
+    <!-- قسم عرض المستخدمين المسجلين من قاعدة البيانات -->
+    <h2>قائمة المستخدمين المتواجدين:</h2>
+    <ul id="users-list">
+      <!-- ستظهر البيانات هنا تلقائياً -->
+    </ul>
+  </main>
+
+  <!-- ربط ملف الجافاسكريبت الخارجي لجلب البيانات -->
+  <script src="script.js"></script>
+</body>
+</html>
